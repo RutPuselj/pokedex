@@ -1,0 +1,15 @@
+.voting__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.voting__icons {
+    height: 22px;
+    width: 24px;
+    margin: 10px 10px 10px 10px;
+}
+
+.voting__text {
+    font: normal 14px/normal Helvetica, Helvetica, sans-serif;
+    color: black;
+}

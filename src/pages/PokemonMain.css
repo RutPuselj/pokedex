@@ -1,0 +1,28 @@
+.pokemon-main__container {
+    margin-top: 80px;
+}
+
+.pokemon-main__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font: bold 20px/normal Helvetica, Helvetica, sans-serif;
+    color: #6a6a6a;
+}
+
+hr {
+    margin-top: -5px;
+    width: 100px;
+    height: 4px;
+    border: 0;
+    background-color: rgba(49, 78, 143, 1);
+
+}
+
+.pokemon-main__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 15px/normal Helvetica, Helvetica, sans-serif;
+    color: rgba(49, 78, 143, 1);
+}

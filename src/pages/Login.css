@@ -1,0 +1,75 @@
+.login__container {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.60;
+    padding: 12px 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    margin: 7px 7px;
+    font: normal 16px/normal Arial, Helvetica, sans-serif;
+    color: rgba(74, 111, 193, 1);
+    background: rgba(252, 252, 252, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.login__loginButton {
+    height: 20px;
+    width: 200px;
+    margin: 15px 7px;
+    position: center;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #018dc4;
+    border-radius: 5px;
+    font: bold 15px/normal Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(49, 78, 143, 1);
+}
+
+.login__loginButton:hover {
+    background: rgba(74, 111, 193, 1);
+}
+
+.login__registerButton {
+    height: 20px;
+    width: 200px;
+    border: 0;
+    position: center;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 5px 20px;
+    font: bold 15px/normal Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(49, 78, 143, 1);
+}
+
+.login__registerButton:hover {
+    color: rgba(74, 111, 193, 1)
+}
+
+.login__imageContainer {
+    height: 270px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login__pokeball {
+    height: 170px;
+    width: 170px;
+}
